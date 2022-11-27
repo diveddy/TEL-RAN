@@ -1,0 +1,8 @@
+   0 vi /tmp/file.txt
+   1 df -h |head -3 >> /tmp/file.txt
+   2 chmod g+w,u-r,o+x /tmp/file.txt
+   3 export NAME=EDUARD VAR=WORLD
+   4 echo NAME=EDUARD VAR=WORLD >> /tmp/file.txt
+   5 nano /tmp/file.txt
+   6 unset NAME=EDUARD VAR=WORLD
+   7 history > history.txt

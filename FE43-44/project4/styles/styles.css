@@ -1,0 +1,12 @@
+body {
+    
+}
+
+.list-elem {
+    list-style: none;
+
+}
+.nav-link {
+    color: grey;
+    text-decoration: none;
+}

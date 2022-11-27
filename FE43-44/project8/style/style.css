@@ -1,0 +1,79 @@
+.tb_1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    border-spacing: 5px;
+    border: 2px solid black;
+    background-color: gainsboro;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.tb_1 th {
+ font-size: 20px;
+ padding: 10px;
+}
+
+.tb_1 td {
+    padding: 10px;
+    background-color: bisque;
+}
+
+/* Вторая таблица */
+.tb_2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+
+.tb_2 th, .tb_2 td:first-child{
+    background-color: ghostwhite;
+    border: 1px solid black;
+    text-align: right;
+    padding: 20px;
+}
+
+.tb_2 td {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    text-align: right;
+}
+
+/* Третья таблица */
+.tb_3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 400px;
+    margin-bottom: 100px;
+}
+.tb_3 td:nth-child(even), th:nth-child(even) {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.tb_3 td:nth-child(odd), th:nth-child(odd) {
+    background-color: gray;
+    padding: 15px;
+}
+
+/* Четвёртая таблица */
+.tb_4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 400px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+}
+.tb_4 tr:nth-child(even) {
+    background-color: rgb(191, 185, 185);
+   
+    
+}
+.tb_4 tr:nth-child(odd) {
+    background-color: whitesmoke;  
+}
+.tb_4 td, .tb_4 th {
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+   /tmp/chmod   0 cd /home
+   1 mkdir -p user/start
+   2 touch user/start/1.txt
+   3 echo start > user/start/1.txt
+   4 date >> user/start/1.txt
+   5 mkdir /opt/task
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 ls -la / | tail -4 >> /opt/task/start.txt
+   8 cat /opt/task/start.txt
+   9 history > history.txt

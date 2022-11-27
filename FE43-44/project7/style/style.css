@@ -1,0 +1,19 @@
+main {
+    width: 600px;
+}
+.skill-scale {
+    height: 20px;
+    background-color: darkgray;
+}
+.skill-scale-internal {
+    width: 80%;
+    height: 20px;
+    background-color: midnightblue;
+}
+
+.item {
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-color: cadetblue;
+    margin: 10px;
+}
