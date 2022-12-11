@@ -1,0 +1,17 @@
+
+ 1  cd /opt/43_44_morning/eddy
+ 2  nano sleeper.sh
+ 3  ./sleeper.sh
+ 4  chmod 700 sleeper.sh
+ 5  ./sleeper.sh
+ 6  nano sleeper.sh
+ 7  ./sleeper.sh
+ 8  nano sleper.sh
+ 9  nano sleeper.sh
+ 0  ./sleeper.sh
+ 10  nano sleeper.sh
+ 11  ./sleeper.sh
+ 12  ls -l
+ 13  history > history.txt
+ 14  export_file history.txt
+ 15  history

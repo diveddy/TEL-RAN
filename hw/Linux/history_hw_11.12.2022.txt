@@ -1,0 +1,59 @@
+[ec2-user@ip-172-31-33-20 eddy]$ cd /opt/43_44_morning/eddy
+[ec2-user@ip-172-31-33-20 eddy]$ ls -a
+.            3_12_36_54  53.txt      62.txt      71.txt      8_19_11_22  9_12_45_36   output.txt
+..           3_12_45_36  54.txt      63.txt      72.txt      81.txt      9_19_11_22   script10.sh
+100.txt      3_19_11_22  55.txt      64.txt      73.txt      82.txt      91.txt       script.sh
+10_12_36_54  4_12_36_54  56.txt      65.txt      74.txt      83.txt      92.txt       script.sh.save
+10_12_45_36  4_12_45_36  57.txt      66.txt      75.txt      84.txt      93.txt       script.sh.save.1
+10_19_11_22  4_19_11_22  58.txt      67.txt      76.txt      85.txt      94.txt       script.sh.save.2
+1_12_36_54   50.txt      59.txt      68.txt      77.txt      86.txt      95.txt       script.sh.save.3
+1_12_45_36   5_12_36_54  60.txt      69.txt      78.txt      87.txt      96.txt       script.sh.save.4
+1_19_11_22   5_12_45_36  6_12_36_54  70.txt      79.txt      88.txt      97.txt       sleeper.sh
+2_12_36_54   5_19_11_22  6_12_45_36  7_12_36_54  80.txt      89.txt      98.txt       taskEDUARD.sh
+2_12_45_36   51.txt      6_19_11_22  7_12_45_36  8_12_36_54  90.txt      99.txt
+2_19_11_22   52.txt      61.txt      7_19_11_22  8_12_45_36  9_12_36_54  history.txt
+[ec2-user@ip-172-31-33-20 eddy]$ crontab -l
+ */15 * * * * /opt/43_44_morning/eddy/taskEDUARD.sh >> /opt/43_44_morning/eddy/output.txt
+[ec2-user@ip-172-31-33-20 eddy]$ cat output.txt
+1
+19_45_01
+2
+19_45_01
+3
+19_45_01
+4
+19_45_01
+5
+19_45_01
+6
+19_45_02
+7
+19_45_02
+8
+19_45_02
+9
+19_45_02
+10
+19_45_02
+[ec2-user@ip-172-31-33-20 eddy]$ cat output.txt
+1
+19_45_01
+2
+19_45_01
+3
+19_45_01
+4
+19_45_01
+5
+19_45_01
+6
+19_45_02
+7
+19_45_02
+8
+19_45_02
+9
+19_45_02
+10
+19_45_02
+[ec2-user@ip-172-31-33-20 eddy]$
